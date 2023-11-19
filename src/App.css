@@ -82,14 +82,12 @@ body{
   box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
 }
 .option-btn:hover{
-  background-color: rgb(212, 118, 173);
+  background-color: lightblue;
   color:white;
 }
 #next-button{
   padding:10px;
   border:none;
-  background-color: purple;
-  background-color: #276272;
   color:white;
   border-radius: 5px;
   box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
@@ -97,9 +95,10 @@ body{
   font-weight: bold;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   transition: 0.2s;
-  width:100px;
+  width:150px;
   position: absolute;
   bottom: 15px;
+  left: 200px;
 }
 #next-button:active{
   box-shadow:none;    
@@ -109,6 +108,10 @@ body{
   top:30%;
   font-size: 40px;
   text-align: center;  
+  position: relative;
+  right: 30px;
+  color: darkblue;
+  /* height: 50px; */
 }
 
 .img{

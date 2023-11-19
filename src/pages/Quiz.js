@@ -44,7 +44,7 @@ function Quiz() {
                 {Data[currentQuestion].options.map((option,i)=>{
                     return(
                         <button 
-                        // className="option-btn"
+                        
                         className={`option-btn ${
                             clickedOption == i+1?"checked":null
                         }`}
@@ -56,7 +56,7 @@ function Quiz() {
                     )
                 })}                
             </div>
-            <input type="button" value="Next" id="next-button" onClick={changeQuestion}/>
+            <input type="button" value="Next" id="next-button" className=' btn btn-primary' onClick={changeQuestion}/>
             </>)}
         </div>
     </div>
